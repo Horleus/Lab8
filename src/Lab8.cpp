@@ -3,13 +3,5 @@
 using namespace std;
 
 int main() {
-	double a;
-	cout << "Enter value of a:";
-	cin >> a;
-	cout << endl;
-
-	cout << "Value of a is " << a << endl;
-
-	cout << "Hello World!" << endl;
-	return 0;
+	double tgf,k1,k2,y1,y2,x,b1,b2,f;
 }
