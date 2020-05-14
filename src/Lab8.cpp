@@ -15,6 +15,12 @@ int main() {
 
     tgf=(k2-k1)/(1+k1*k2);
 
+    f=atan(tgf);
+
+    cout << f;
+    cout << endl;
+
+
     return 0;
 
 
