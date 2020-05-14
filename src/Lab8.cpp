@@ -10,6 +10,6 @@ int main() {
 
 	cout << "Value of a is " << a << endl;
 
-	cout << "Hello World!" << endl; // prints !!!Hello World!!!
+	cout << "Hello World!" << endl;
 	return 0;
 }
