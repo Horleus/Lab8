@@ -3,14 +3,16 @@
 using namespace std;
 
 int main() {
-	double tgf,k1,k2,f; // Р†РґРµРЅС‚РёС„С–РєР°С†С–СЏ Р·РјС–РЅРёС… РґР»СЏ С„РѕСЂРјСѓР»
+	double tgf,k1,k2,f; // Ідентифікація зміних для формул
 	double PI = 3.1415926;
 
-	cout << "РџСЂСЏРјР° y=k1x+b1, РІРІРµРґС–С‚СЊ k1:";
+	setlocale(LC_ALL, "Ukrainian");
+
+	cout << "Пряма y=k1x+b1, введіть k1:";
     cin >> k1;
     cout << endl;
 
-    cout << "РџСЂСЏРјР° y=k2x+b2, РІРІРµРґС–С‚СЊ k2:";
+    cout << "Пряма y=k2x+b2, введіть k2:";
     cin >> k2;
     cout << endl;
 
@@ -18,7 +20,7 @@ int main() {
 
     f=atan(tgf)*180/PI;
 
-    cout << "РљСѓС‚ РјС–Р¶ РїСЂСЏРјРёРјРё: " << f << "РіСЂР°РґСѓСЃС–РІ" << endl;
+    cout << "Кут між прямими: " << f << "градусів" << endl;
 
     return 0;
 }
