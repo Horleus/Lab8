@@ -13,7 +13,7 @@ int main() {
     cin >> k2;
     cout << endl;
 
-    tgf=(k2-k1)/(1+k1*k2)
+    tgf=(k2-k1)/(1+k1*k2);
 
     return 0;
 
