@@ -8,11 +8,11 @@ int main() {
 
 	setlocale(LC_ALL, "Ukrainian");
 
-	cout << "Пряма y=k1x+b1, введіть k1:";
+	cout << "Пряма y=k1x+b1, введiть k1:";
     cin >> k1;
     cout << endl;
 
-    cout << "Пряма y=k2x+b2, введіть k2:";
+    cout << "Пряма y=k2x+b2, введiть k2:";
     cin >> k2;
     cout << endl;
 
@@ -20,7 +20,7 @@ int main() {
 
     f=atan(tgf)*180/PI;
 
-    cout << "Кут між прямими: " << f << "градусів" << endl;
+    cout << "Кут мiж прямими: " << f << " градусiв" << endl;
 
     return 0;
 }
